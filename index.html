@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="assets/images/favicon.ico" rel="icon" />
+  <title>GOJI.MX | Documentación</title>
+  <meta name="description" content="Your ThemeForest item Name and description">
+  <meta name="author" content="harnishdesign.net">
+
+  <!-- Stylesheet
+============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+  <!-- Highlight Syntax -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Document Wrapper   
+=============================== -->
+  <div id="main-wrapper">
+
+    <!-- Header
+  ============================ -->
+    <header id="header" class="sticky-top">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+        <div class="container-fluid">
+          <!-- Sidebar Toggler -->
+          <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span
+              class="w-75"></span><span class="w-50"></span></button>
+
+          <!-- Logo -->
+          <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/logo.png"
+              alt="iDocs Template" class="w-25" /> </a>
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Content
+  ============================ -->
+    <div id="content" role="main">
+
+      <!-- Sidebar Navigation
+	============================ -->
+      <div class="idocs-navigation bg-light">
+        <ul class="nav flex-column ">
+          <li class="nav-item"><a class="nav-link active" href="#renata_business_ai">Renata Business AI</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#introduccion">Introducción</a></li>
+              <li class="nav-item"><a class="nav-link" href="#casos_de_uso">Casos de uso</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#cuenta">Cuenta</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#crear_cuenta">Crear una cuenta</a></li>
+              <li class="nav-item"><a class="nav-link" href="#configuracion_cuenta">Configuración de la cuenta</a></li>
+              <li class="nav-item"><a class="nav-link" href="#olvide_contrasena">Olvidé mi contraseña</a></li>
+              <li class="nav-item"><a class="nav-link" href="#gestionar_usuarios">Gestionar usuarios</a></li>
+              <li class="nav-item"><a class="nav-link" href="#consumo">Consumo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#canales">Canales</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#multiples_canales">Múltiples canales</a></li>
+              <li class="nav-item"><a class="nav-link" href="#agregar_canal">Agregar canal</a></li>
+              <li class="nav-item"><a class="nav-link" href="#eliminar_canal">Eliminar un canal</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#asistentes">Asistentes</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#instrucciones">Instrucciones</a></li>
+              <li class="nav-item"><a class="nav-link" href="#niveles_inteligencia">Niveles de inteligencia</a></li>
+              <li class="nav-item"><a class="nav-link" href="#horario_atencion">Horario de atención</a></li>
+              <li class="nav-item"><a class="nav-link" href="#velocidad_respuesta">Velocidad de respuesta</a></li>
+              <li class="nav-item"><a class="nav-link" href="#conocimiento_asistente">Conocimiento del asistente</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#habilidades_asistente">Habilidades del asistente</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#conocimiento">Conocimiento</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#crear_bases_conocimiento">Crear bases de conocimiento</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#eliminar_bases_conocimiento">Eliminar bases de
+                  conocimiento</a></li>
+              <li class="nav-item"><a class="nav-link" href="#sincronizar_bases_conocimiento">Sincronizar bases de
+                  conocimiento</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#webhooks">WebHooks</a></li>
+              <li class="nav-item"><a class="nav-link" href="#email">Email</a></li>
+              <li class="nav-item"><a class="nav-link" href="#calendario">Calendario</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#categorias">Categorías</a></li>
+          <li class="nav-item"><a class="nav-link" href="#conversaciones">Conversaciones</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#filtrar_conversaciones">Filtrar conversaciones</a></li>
+              <li class="nav-item"><a class="nav-link" href="#visualizar_conversacion">Visualizar conversación</a></li>
+              <li class="nav-item"><a class="nav-link" href="#enviar_mensajes_masivos">Enviar mensajes masivos</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Docs Content
+	============================ -->
+      <div class="idocs-content">
+        <div class="container">
+
+          <!-- Getting Started
+		============================ -->
+
+          <section id="renata_business_ai">
+            <img src="./assets/images/renata_hiding.png" class="w-25">
+            <h1>Renata Business AI</h1>
+            <div class="lead">
+              <p>¡Hola! Bienvenido a la documentación de Renata, nuestra plataforma para que puedas crear asistentes de
+                inteligencia artificial para tu negocio. 😄</p>
+              <p>Renata es súper versátil. Se conecta con varios canales, principalmente WhatsApp y otras redes
+                sociales. Lo mejor es que puedes conectar varios canales al mismo asistente, y este siempre va a
+                recordar el contexto, resolver dudas, dar soporte técnico, agendar citas y mucho más (Estamos trabajando
+                mucho en nuevas funcionalidades...)</p>
+              <p>Este proyecto es mantenido por Goji Technologies, una startup mexicana. Estamos muy agradecidos de que
+                hayas elegido nuestro producto.
+                <br><br> <i>- Rafael Patino Goji</i>
+              </p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Introducción
+============================ -->
+          <section id="introduccion">
+            <h2>Introducción</h2>
+            <div class="lead">
+              <p>Renata es una plataforma que te permite configurar asistentes de inteligencia artificial a la medida de
+                tu negocio. 🚀</p>
+              <p>Existen diferentes planes de uso y el pago se realiza a través de los <strong>Puntos de la
+                  aplicación</strong>. Cada mensaje que envíe tu asistente tendrá un costo en puntos, los cuales se
+                descontarán del balance de tu cuenta. Puedes conectar canales como <strong>WhatsApp</strong> u <em>otras
+                  redes sociales</em> para que tu asistente gestione la comunicación con tus clientes.</p>
+              <p>Además, es posible añadir <strong>Habilidades</strong> a cada asistente, lo que les permite realizar
+                acciones específicas, como presionar botones o <em>ejecutar funciones</em> en otros sistemas. Renata se
+                integra fácilmente con <strong>Google Calendar</strong>, <strong>Gmail</strong>, <strong>Google
+                  Sheets</strong>, <strong>Google Docs</strong> y <em>muchas otras aplicaciones populares</em>.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Casos de Uso
+============================ -->
+          <section id="casos_de_uso">
+            <h2>Casos de Uso</h2>
+            <div class="lead">
+              <p>Los asistentes de Renata son ideales para una amplia variedad de negocios. Aquí te dejamos algunos
+                ejemplos:</p>
+              <ul>
+                <li><strong>Barberías:</strong> Disponibilidad, reservas, consultas.</li>
+                <li><strong>Consultorios Dentales:</strong> Agendamiento de citas, preguntas frecuentes de pacientes.
+                </li>
+                <li><strong>Restaurantes:</strong> Reservas, consultas de menú.</li>
+                <li><strong>Sitios web:</strong> Soporte, información de productos, resolución de problemas.</li>
+                <li><strong>Inmobiliarias:</strong> Consultas de propiedades, agendamiento de visitas.</li>
+                <li><strong>Aseguradoras:</strong> Reclamaciones, ayuda con pólizas, soporte.</li>
+              </ul>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Crear una cuenta
+============================ -->
+          <section id="cuenta"></section>
+          <section id="crear_cuenta">
+            <h2>Crear una cuenta</h2>
+            <div class="lead">
+              <p>Crear una cuenta en Renata es muy sencillo. Solo necesitas acceder a <a
+                  href="https://main.goji-mx.cloud/register" target="_blank">RenataAPP</a> y seguir los pasos para
+                registrarte. Se te solicitarán algunos datos personales y la selección de un plan de pago. Escoge el
+                plan que mejor se adapte a las necesidades de tu negocio, ¡y listo! Estás a un paso de aprovechar todo
+                el potencial de Renata.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Configuración de la cuenta
+============================ -->
+          <section id="configuracion_cuenta">
+            <h2>Configuración de la cuenta</h2>
+            <div class="lead">
+              <p>Una vez que hayas creado tu cuenta, es importante configurar todos los detalles para que Renata
+                funcione a la perfección en tu negocio. Para ello, accede a la sección de configuración en <a
+                  href="https://main.goji-mx.cloud/settings" target="_blank">Configuración</a> y
+                sigue estos pasos:</p>
+
+              <table class="table table-bordered">
+                <thead class="bg-light">
+                  <tr>
+                    <th>Configuración</th>
+                    <th>Descripción</th>
+                    <th>Ejemplo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="bg-light">
+                    <td><strong>Nombre del negocio</strong></td>
+                    <td>Este es el nombre con el que Renata identificará a tu empresa. Se utilizará en todas las
+                      interacciones con los clientes, así que asegúrate de que sea correcto y representativo de tu
+                      marca.</td>
+                    <td><em>Tech Innovators</em></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Nombre del usuario</strong></td>
+                    <td>El nombre completo con el que te identificas dentro de Renata. Este será utilizado en
+                      comunicaciones y para el acceso a la plataforma.</td>
+                    <td><em>Juan Pérez</em></td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Correo</strong></td>
+                    <td>Es el correo electrónico al cual se te enviarán todas las notificaciones relacionadas con tu
+                      cuenta. Es importante que este correo esté actualizado para no perder ninguna información
+                      importante.</td>
+                    <td><em>juan.perez@techinnovators.com</em></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Casos de uso</strong></td>
+                    <td>En esta sección puedes seleccionar el caso de uso principal para Renata en tu negocio. Esto
+                      ayudará a optimizar las funciones del asistente según las necesidades específicas de tu empresa.
+                    </td>
+                    <td>
+                      <ul>
+                        <li><em>Soporte Técnico</em></li>
+                        <li><em>Gestión de Citas y Reservas</em></li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Teléfono de WhatsApp</strong></td>
+                    <td>El número de teléfono asociado a tu cuenta de WhatsApp Business que Renata utilizará para
+                      interactuar con tus clientes. Asegúrate de que el número esté correctamente registrado para evitar
+                      problemas de conexión.</td>
+                    <td><em>555-1234-5678</em></td>
+                  </tr>
+                  <tr>
+                    <td><strong>BusinessID</strong></td>
+                    <td>El identificador único de tu negocio en Renata. Este ID se utiliza internamente para gestionar
+                      todas las operaciones relacionadas con tu cuenta.</td>
+                    <td><em>BUS1234567890</em></td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>RenataID</strong></td>
+                    <td>Este es el ID único de tu asistente dentro de Renata. Se utiliza para identificar y gestionar
+                      las interacciones del asistente con tus clientes.</td>
+                    <td><em>asst_ABC123456789</em></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Olvidé mi contraseña
+============================ -->
+          <section id="olvide_contrasena">
+            <h2>Olvidé mi contraseña</h2>
+            <div class="lead">
+              <p>Si en algún momento olvidas tu contraseña, no te preocupes. Puedes recuperarla fácilmente haciendo clic
+                en el siguiente enlace: <a href="https://main.goji-mx.cloud/forgot-password" target="_blank">Recuperar
+                  Contraseña</a>. Se enviará un enlace único a la dirección de correo electrónico asociada a tu cuenta
+                para que puedas restablecer tu contraseña de manera segura.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Gestionar usuarios
+============================ -->
+          <section id="gestionar_usuarios">
+            <h2>Gestionar usuarios</h2>
+            <div class="lead">
+              <p>La gestión de usuarios en Renata te permite configurar y administrar los datos de los colaboradores que
+                tendrán acceso a tu negocio. Un solo negocio puede registrar varios usuarios, y al registrarse por
+                primera vez, se crea un usuario principal. Sin embargo, puedes añadir usuarios secundarios para otros
+                miembros de tu equipo.</p>
+              <p>En el futuro, será posible configurar privilegios específicos para cada usuario. Por ahora, esta
+                sección te permite dar acceso a más personas en tu equipo, asegurando que todos tengan las herramientas
+                necesarias para colaborar eficazmente.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Consumo
+============================ -->
+          <section id="consumo">
+            <h2>Consumo</h2>
+            <div class="lead">
+              <p>En la sección de Consumo, puedes visualizar el uso del asistente en términos de transacciones
+                realizadas. Aquí verás cuántos mensajes ha respondido el asistente, el promedio de interacciones, y el
+                costo promedio por mensaje para cada asistente configurado en tu cuenta.</p>
+              <p>Esta información es clave para entender cómo se están utilizando los puntos en tu cuenta y optimizar el
+                rendimiento y los costos asociados a las operaciones de tu asistente.</p>
+
+              <p><a class="popup-img" href="assets/images/consumo.png"><img class="img-fluid border"
+                    src="assets/images/consumo.png" alt=""></a></p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Canales
+============================ -->
+          <section id="canales">
+            <h2>Canales</h2>
+            <div class="lead">
+              <p>Los canales son la manera en que conectamos a Renata con el resto del mundo 🌍. Le damos acceso a
+                múltiples formas de comunicación. WhatsApp es el principal, pero también se puede conectar a través de
+                llamada por voz a un número de teléfono mexicano, y próximamente con redes sociales como LinkedIn,
+                Instagram y Messenger.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Múltiples canales
+============================ -->
+          <section id="multiples_canales">
+            <h2>Múltiples canales</h2>
+            <div class="lead">
+              <p>Renata te permite manejar varios canales de comunicación de forma simultánea. Esto significa que puedes
+                conectar tu asistente a WhatsApp y a otras plataformas, lo que facilita la interacción con tus clientes
+                a través de diferentes medios.</p>
+
+              <p><a class="popup-img" href="assets/images/channels.png"><img class="img-fluid border"
+                    src="assets/images/channels.png" alt="canales"></a></p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Agregar canal
+============================ -->
+          <section id="agregar_canal">
+            <h2>Agregar un canal</h2>
+            <div class="lead">
+              <p>Para agregar un nuevo canal, ve a la sección de configuración y haz clic en el símbolo "+" para añadir
+                un canal. A continuación, debes seleccionar el tipo de canal, como WhatsApp. Si optas por WhatsApp,
+                sigue estos pasos:</p>
+              <ol>
+                <li>Genera el código QR en la app de Renata, ya sea mediante una cuenta nueva o agregando un canal
+                  existente.</li>
+                <li>Abre la app de WhatsApp en tu teléfono y selecciona la opción de "Enlazar dispositivo" (como si
+                  fuera WhatsApp Web).</li>
+                <li>Escanea el código QR. Automáticamente se detectará en la app y podrás automatizar tu cuenta de
+                  WhatsApp.</li>
+              </ol>
+              <p>Si tienes un asistente activo, este responderá a todos los mensajes que lleguen a ese número de
+                teléfono, así que es recomendable usar un número exclusivo para esta función.</p>
+              <p>Si tienes alguna dificultad, no dudes en contactarnos en <a
+                  href="mailto:contacto@goji.mx">contacto@goji.mx</a>.</p>
+              <p>El estado de conexión del dispositivo se muestra con un pequeño indicador que puede ser verde
+                (conectado) o rojo (desconectado).</p>
+              <p><a class="popup-img" href="assets/images/indicador.png"><img class="img-fluid border"
+                    src="assets/images/indicador.png" alt="Indicador de estado"></a></p>
+
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Eliminar canal
+============================ -->
+          <section id="eliminar_canal">
+            <h2>Eliminar un canal</h2>
+            <div class="lead">
+              <p>Para eliminar un canal, haz clic en el canal que deseas eliminar, despliega el modal correspondiente y
+                luego haz clic en "Eliminar".</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+
+          <!-- Asistentes
+============================ -->
+          <section id="asistentes">
+            <h2>Asistentes 🙋🏻‍♀️</h2>
+            <div class="lead">
+              <p>Los asistentes son la base de todo en Renata y probablemente la característica más importante de la
+                plataforma. Puedes generar varios asistentes según las necesidades de tu negocio, lo que te permite
+                tener distintos perfiles para diferentes tareas o departamentos.</p>
+
+              <p>Puntos clave sobre los asistentes:</p>
+              <ul>
+                <li>Puedes crear múltiples asistentes según las necesidades de tu negocio.</li>
+                <li>Una vez creado, puedes marcar un asistente como tu principal haciendo clic en el ícono de estrella
+                  ⭐.</li>
+                <li>Es posible clonar asistentes, lo que facilita la creación de nuevos asistentes con configuraciones
+                  similares.</li>
+                <li>El número de asistentes que puedes crear depende del plan que hayas elegido.</li>
+              </ul>
+              <p><a class="popup-img" href="assets/images/asistentes.png"><img class="img-fluid border"
+                src="assets/images/asistentes.png" alt="asistentes"></a></p>
+            </div>
+          </section>
+
+          <hr class="divider">
+          <!-- Instrucciones
+============================ -->
+          <section id="instrucciones">
+            <h2>Instrucciones</h2>
+            <div class="lead">
+              <p>Las instrucciones son como un "prompt" que le das al asistente para que sepa cómo actuar y responder a
+                las diferentes situaciones. Puedes configurar lo que quieras que el asistente haga, como responder
+                preguntas frecuentes, agendar citas o incluso manejar consultas más complejas. Simplemente escribe en
+                lenguaje natural lo que quieres que el asistente haga, y él seguirá tus instrucciones al pie de la
+                letra.</p>
+
+                <p><a class="popup-img" href="assets/images/instrucciones.png"><img class="img-fluid border"
+                  src="assets/images/instrucciones.png" alt="instrucciones"></a></p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Niveles de inteligencia
+============================ -->
+          <section id="niveles_inteligencia">
+            <h2>Niveles de inteligencia</h2>
+            <div class="lead">
+              <p>Renata puede operar con diferentes niveles de inteligencia, que en realidad son distintos modelos de
+                lenguaje (LLM) más avanzados. Cada nivel tiene sus ventajas y desventajas (trade-offs). Por ejemplo, un
+                modelo más avanzado puede ser más preciso pero también más lento o consumir más recursos. Puedes elegir
+                el nivel que mejor se adapte a las necesidades de tu negocio.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Horario de atención
+============================ -->
+          <section id="horario_atencion">
+            <h2>Horario de atención</h2>
+            <div class="lead">
+              <p>El horario de atención define en qué momentos del día quieres que tu asistente esté disponible para
+                responder. Puedes configurar los días y las horas específicas en las que deseas que Renata esté activa,
+                asegurando que siempre esté disponible cuando tus clientes lo necesiten, pero también respetando los
+                tiempos en los que prefieras que no se realicen respuestas automáticas.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Velocidad de respuesta
+============================ -->
+          <section id="velocidad_respuesta">
+            <h2>Velocidad de respuesta</h2>
+            <div class="lead">
+              <p>La velocidad de respuesta de Renata puede variar para darle un toque más natural a las interacciones.
+                Existen tres niveles de velocidad que se seleccionan aleatoriamente dentro de ciertos rangos:</p>
+              <ul>
+                <li><strong>Rápido:</strong> 1-5 segundos</li>
+                <li><strong>Medio:</strong> 5-10 segundos</li>
+                <li><strong>Lento:</strong> 10-20 segundos</li>
+              </ul>
+              <p>Esto ayuda a simular una respuesta más humana, variando el tiempo que el asistente toma en responder a
+                cada mensaje.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Conocimiento del asistente
+============================ -->
+          <section id="conocimiento_asistente">
+            <h2>Conocimiento del asistente</h2>
+            <div class="lead">
+              <p>El conocimiento del asistente es básicamente su "cerebro" 🧠, y se alimenta de una base de conocimiento
+                que le das.</p>
+
+              <ul>
+                <li>La base de conocimiento puede ser un PDF de tu negocio o un enlace web del cual Renata extrae el
+                  texto y lo usa para dar contexto.</li>
+                <li>El asistente consulta esta base cada vez que recibe una pregunta, buscando la mejor respuesta
+                  posible antes de generar una respuesta final.</li>
+                <li>Esto ayuda a evitar las "alucinaciones" o respuestas incorrectas, asegurando que todo lo que diga el
+                  asistente esté alineado con la información específica de tu negocio.</li>
+                <li>Solo puedes configurar una base de conocimiento por asistente, así que elige bien la que más le
+                  convenga al asistente</li>
+              </ul>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Habilidades del asistente
+============================ -->
+          <section id="habilidades_asistente">
+            <h2>Habilidades del asistente</h2>
+            <div class="lead">
+              <p>Las habilidades son las funciones específicas que tu asistente puede realizar, como enviar correos,
+                agendar citas, o incluso realizar acciones en otras aplicaciones. Aquí te explico en detalle cómo
+                funcionan y cómo puedes configurarlas:</p>
+
+              <h5><strong>¿Qué son las habilidades o "tools" del asistente?</strong></h5>
+              <ul>
+                <li><strong>Llamadas a funciones programáticas:</strong> Tu asistente puede ejecutar funciones
+                  específicas para acceder a información que no conoce directamente. Esto le permite interactuar con
+                  bases de datos, APIs, o cualquier otro sistema que esté configurado.</li>
+                <li><strong>Presionar botones en otros sistemas:</strong> El asistente también puede interactuar con
+                  otras aplicaciones, presionando botones o activando funciones en sistemas externos. Esto es útil para
+                  tareas como automatizar procesos o integrar acciones entre diferentes plataformas.</li>
+              </ul>
+
+              <h5><strong>Configuración de las habilidades</strong></h5>
+              <p>Las habilidades se configuran en la sección de <strong>Habilidades</strong> de Renata, pero es
+                importante asignarlas manualmente a cada asistente de manera individual. No hay un límite máximo de
+                habilidades que puedes asignar, pero es recomendable no sobrecargar al asistente con demasiadas. Esto
+                garantiza que el asistente sepa cómo usarlas correctamente y de manera efectiva.</p>
+
+              <h5><strong>Asociando habilidades a un asistente</strong></h5>
+              <ul>
+                <li>Accede a la configuración individual de cada asistente.</li>
+                <li>Selecciona las habilidades que quieres que ese asistente tenga disponibles.</li>
+                <li>Guarda la configuración para que el asistente pueda utilizar estas habilidades en sus respuestas y
+                  acciones.</li>
+              </ul>
+
+              <p>Recuerda que cada habilidad que asignes debe ser mencionada en el "prompt" de instrucciones, donde le
+                especificas al asistente qué puede y qué no puede hacer. Esto ayuda a guiar su comportamiento y asegurar
+                que utilice las habilidades de la manera más adecuada.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+          <!-- Conocimiento
+============================ -->
+          <section id="conocimiento">
+            <h2>Conocimiento</h2>
+            <div class="lead">
+              <p>Las bases de conocimiento en Renata son esenciales para que los asistentes puedan responder de manera
+                precisa y relevante. A continuación, te explicamos cómo crear, eliminar y sincronizar estas bases de
+                conocimiento.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Crear bases de conocimiento
+============================ -->
+          <section id="crear_bases_conocimiento">
+            <h2>Crear bases de conocimiento</h2>
+            <div class="lead">
+              <p>Para organizar la información, puedes crear bases de conocimiento por tema. Cada base puede contener
+                múltiples archivos que el asistente utilizará para encontrar respuestas.</p>
+
+              <h5><strong>Formatos soportados</strong></h5>
+              <ul>
+                <li><strong>PDFs y archivos de texto (TXT):</strong> Estos archivos se cargan directamente en la base de
+                  conocimiento.</li>
+                <li><strong>Links de páginas web:</strong> Renata realiza un proceso de web scraping para extraer el
+                  texto de la página, convirtiéndolo en parte de la base de conocimiento.</li>
+              </ul>
+
+              <h5><strong>Proceso de búsqueda semántica</strong></h5>
+              <p>Una vez que los archivos son cargados, pasan por un proceso de vectorización y se preparan para la
+                <em>búsqueda semántica</em>. Esto permite que el asistente no solo busque coincidencias exactas de
+                palabras, sino que entienda el contexto y significado de las consultas para ofrecer respuestas más
+                precisas.
+              </p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Eliminar bases de conocimiento
+============================ -->
+          <section id="eliminar_bases_conocimiento">
+            <h2>Eliminar bases de conocimiento</h2>
+            <div class="lead">
+              <p>Eliminar una base de conocimiento es un proceso sencillo:</p>
+              <ul>
+                <li>Selecciona la base de conocimiento que deseas eliminar.</li>
+                <li>Haz clic en el botón <strong>Eliminar</strong>.</li>
+              </ul>
+              <p>Esto eliminará la base de conocimiento de forma permanente, así que asegúrate de que realmente ya no la
+                necesitas antes de proceder.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Sincronizar bases de conocimiento
+============================ -->
+          <section id="sincronizar_bases_conocimiento">
+            <h2>Sincronizar bases de conocimiento</h2>
+            <div class="lead">
+              <p>El proceso de sincronización asegura que los archivos y datos de la base de conocimiento estén
+                disponibles para el asistente.</p>
+
+              <h5><strong>Proceso de sincronización</strong></h5>
+              <p>El tiempo de sincronización depende del tamaño de los archivos, pero generalmente es rápido mientras se
+                suben los datos. Durante este proceso, la base de conocimiento pasará por varios estados:</p>
+
+              <ul>
+                <li><strong>Desincronizado:</strong> 🟥 Indica que los datos no han sido enviados al servidor.</li>
+                <li><strong>Sincronizando:</strong> 🟨 Proceso en progreso, los archivos están siendo subidos y
+                  preparados.</li>
+                <li><strong>Sincronizado:</strong> 🟩 Todo está en orden y la base de conocimiento está lista para ser
+                  utilizada por el asistente.</li>
+              </ul>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Habilidades
+============================ -->
+          <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="lead">
+              <p>Las habilidades son las múltiples integraciones y acciones a las que los asistentes de Renata tienen
+                acceso. Estas habilidades permiten que los asistentes interactúen con otras aplicaciones, ejecuten
+                funciones específicas, y realicen tareas automatizadas. Continuamente se añaden nuevas habilidades con
+                cada actualización para expandir las capacidades de Renata.</p>
+
+              <h5 id="webhooks"><strong>WebHooks</strong></h5>
+              <p>Los WebHooks son una de las habilidades más versátiles que puedes configurar para tu asistente.
+                Permiten que Renata interactúe con otros sistemas enviando solicitudes HTTP, como GET o POST, a una URL
+                específica. Esto es útil para automatizar procesos, integrar servicios, o interactuar con APIs externas.
+              </p>
+
+              <h5><strong>Configuración de un WebHook</strong></h5>
+              <p>Para añadir una habilidad de tipo WebHook, debes configurar los siguientes parámetros. Puedes utilizar
+                variables como <code>{{variable}}</code> para que Renata autocomplete inteligentemente a partir de la
+                conversación, adaptando la solicitud según el contexto.</p>
+              <table class="table table-bordered">
+                <thead class="bg-light">
+                  <tr>
+                    <th>Parámetro</th>
+                    <th>Descripción</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Identificador de la habilidad</strong></td>
+                    <td>Introduce un nombre único para identificar la habilidad WebHook.</td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Descripción de la habilidad</strong></td>
+                    <td>Escribe una breve descripción de lo que hace la habilidad.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Método</strong></td>
+                    <td>Selecciona el método HTTP que utilizará el WebHook (GET o POST).</td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>URL</strong></td>
+                    <td>Introduce la URL a la que se enviará la solicitud.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Parámetros</strong></td>
+                    <td>Define los nombres de los parámetros y sus descripciones. Estos pueden incluir datos que se
+                      envían junto con la solicitud.</td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Body (JSON)</strong></td>
+                    <td>Si es necesario, añade un cuerpo en formato JSON para enviar información más estructurada.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Autorización</strong></td>
+                    <td>Si el WebHook requiere autenticación, selecciona el tipo (por ejemplo, Bearer) e introduce el
+                      valor de autorización.</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h5 id="email"><strong>Email</strong></h5>
+              <p>Otra habilidad útil es la capacidad de enviar correos electrónicos. Con la habilidad de Email, Renata
+                puede enviar correos desde su cuenta integrada (renata@goji.mx) a los destinatarios que definas. Al usar
+                variables como <code>{{destination}}</code>, <code>{{subject}}</code>, y <code>{{body}}</code>, Renata
+                autocompleta inteligentemente los valores a partir de la conversación, adaptando el contenido según el
+                contexto.</p>
+
+              <h5><strong>Configuración de un Email</strong></h5>
+              <p>Para añadir una habilidad de tipo Email, configura los siguientes parámetros:</p>
+
+              <table class="table table-bordered">
+                <thead class="bg-light">
+                  <tr>
+                    <th>Parámetro</th>
+                    <th>Descripción</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Identificador de la habilidad</strong></td>
+                    <td>Introduce un nombre único para identificar la habilidad Email.</td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Descripción de la habilidad</strong></td>
+                    <td>Escribe una breve descripción de la habilidad y cómo será utilizada.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Destinatario</strong></td>
+                    <td>Utiliza la variable <code>{{destination}}</code> para que Renata complete automáticamente el
+                      destinatario.</td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Asunto</strong></td>
+                    <td>Utiliza la variable <code>{{subject}}</code> para que Renata complete automáticamente el asunto
+                      del correo.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Cuerpo</strong></td>
+                    <td>Utiliza la variable <code>{{body}}</code> para que Renata complete automáticamente el cuerpo del
+                      correo.</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h5 id="calendario"><strong>Calendario</strong></h5>
+              <p>Renata también puede gestionar eventos en el calendario, permitiendo agendar citas y reuniones
+                automáticamente. Usando variables como <code>{{titulo}}</code>, <code>{{fecha}}</code>,
+                <code>{{hora}}</code>, y otras, Renata autocompleta inteligentemente los detalles del evento según la
+                conversación.
+              </p>
+
+              <h5><strong>Configuración de un evento de Calendario</strong></h5>
+              <p>Para añadir una habilidad de tipo Calendario, configura los siguientes parámetros:</p>
+
+              <table class="table table-bordered">
+                <thead class="bg-light">
+                  <tr>
+                    <th>Parámetro</th>
+                    <th>Descripción</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Identificador de la habilidad</strong></td>
+                    <td>Introduce un nombre único para identificar la habilidad del Calendario.</td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Descripción de la habilidad</strong></td>
+                    <td>Describe cuándo y cómo deseas que el asistente utilice esta habilidad.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Nombre del evento</strong></td>
+                    <td>Utiliza la variable <code>{{titulo}}</code> para que Renata complete automáticamente el nombre
+                      del evento.</td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Fecha de inicio del evento</strong></td>
+                    <td>Utiliza la variable <code>{{fecha}}</code> o introduce una fecha en formato
+                      <code>YYYY-MM-DD</code>.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Hora de inicio del evento</strong></td>
+                    <td>Utiliza la variable <code>{{hora}}</code> o introduce la hora en formato de 24 horas (ejemplo:
+                      18:30).</td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Fecha de finalización del evento</strong></td>
+                    <td>Utiliza la variable <code>{{fecha}}</code> o introduce una fecha en formato
+                      <code>YYYY-MM-DD</code>.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Hora de finalización del evento</strong></td>
+                    <td>Utiliza la variable <code>{{hora}}</code> o introduce la hora en formato de 24 horas (ejemplo:
+                      18:30).</td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Descripción del evento</strong></td>
+                    <td>Utiliza la variable <code>{{descripcion}}</code> para que Renata complete automáticamente la
+                      descripción del evento.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Participantes del evento</strong></td>
+                    <td>Utiliza la variable <code>{{participantes}}</code> para que Renata complete automáticamente la
+                      lista de participantes.</td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Ubicación del evento</strong></td>
+                    <td>Utiliza la variable <code>{{ubicacion}}</code> para que Renata complete automáticamente la
+                      ubicación del evento.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Categorías
+============================ -->
+          <section id="categorias">
+            <h2>Categorías</h2>
+            <div class="lead">
+              <p>Las categorías son la manera en que Renata puede segmentar y organizar las conversaciones que tiene.
+                Esto permite que el asistente clasifique automáticamente las interacciones según la configuración que
+                hayas definido. Las categorías se definen, se modifican y se crean en la sección de <a href="/settings"
+                  target="_blank">configuración de categorías</a>.</p>
+
+              <p>Cuando defines una categoría, lo haces en lenguaje natural. Renata, utilizando su inteligencia
+                artificial, puede decidir automáticamente si la conversación que está teniendo pertenece a alguna de las
+                categorías configuradas. Es importante mencionar que hay un máximo de 6 categorías. Si necesitas más,
+                por favor contacta a <a href="mailto:contacto@goji.mx">contacto@goji.mx</a>.</p>
+
+              <h5><strong>Editar Categoría</strong></h5>
+              <p>Para editar una categoría, debes configurar los siguientes parámetros:</p>
+
+              <table class="table table-bordered">
+                <thead class="bg-light">
+                  <tr>
+                    <th>Parámetro</th>
+                    <th>Descripción</th>
+                    <th>Ejemplo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Nombre de la Opción</strong></td>
+                    <td>Introduce el nombre de la nueva opción.</td>
+                    <td><em>Triste</em></td>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><strong>Descripción</strong></td>
+                    <td>Detalla lo que representa esta opción.</td>
+                    <td><em>El usuario ha indicado que tiene alguna dificultad.</em></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Ícono</strong></td>
+                    <td>Elige un ícono para representar visualmente esta opción.</td>
+                    <td>😞</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Conversaciones
+============================ -->
+          <section id="conversaciones">
+            <h2>Conversaciones</h2>
+            <div class="lead">
+              <p>En la sección de "Mis conversaciones", ubicada en <a href="https://main.goji-mx.cloud//myconversations"
+                  target="_blank">Mis Conversaciones</a>, puedes ver todas las conversaciones que has tenido en los
+                múltiples canales configurados en Renata. Esta es tu base de operaciones para gestionar y revisar todas
+                las interacciones que tu asistente ha manejado.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Filtrar conversaciones
+============================ -->
+          <section id="filtrar_conversaciones">
+            <h2>Filtrar conversaciones</h2>
+            <div class="lead">
+              <p>Filtrar conversaciones es clave cuando manejas un gran volumen de interacciones. Puedes filtrar por:
+              </p>
+              <ul>
+                <li><strong>Fecha:</strong> Selecciona un rango de fechas para ver solo las conversaciones que
+                  ocurrieron en ese periodo.</li>
+                <li><strong>Estado de la conversación:</strong> Dependiendo de cómo se esté manejando cada conversación,
+                  podrás filtrarlas por su estado actual.</li>
+                <li><strong>Categorías:</strong> Si tienes categorías configuradas, puedes usarlas para filtrar las
+                  conversaciones según el tipo de interacción que tuvo el usuario.</li>
+              </ul>
+              <p>Esto te permite enfocarte en las interacciones más relevantes y gestionar mejor las respuestas y el
+                seguimiento.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Visualizar conversación
+============================ -->
+          <section id="visualizar_conversacion">
+            <h2>Visualizar conversación</h2>
+            <div class="lead">
+              <p>Para ver el detalle de una conversación, solo tienes que hacer clic en "Ver conversación". Esto te
+                mostrará un resumen completo de la interacción, incluyendo un resumen de lo más relevante y cómo fue
+                categorizada según las reglas que hayas configurado en Renata.</p>
+              <p>Es una herramienta útil para entender el contexto y el flujo de la conversación, así como para
+                identificar cualquier seguimiento necesario.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Enviar mensajes masivos
+============================ -->
+          <section id="enviar_mensajes_masivos">
+            <h2>Enviar mensajes masivos</h2>
+            <div class="lead">
+              <p>Renata te permite enviar mensajes masivos, una función especialmente útil para campañas o
+                actualizaciones importantes. Por el momento, esta función solo soporta WhatsApp, pero pronto estará
+                disponible para otros canales.</p>
+              <p>Para enviar un mensaje masivo:</p>
+              <ol>
+                <li>Descarga el formato para cargar contactos. Este formato te permitirá listar los números a los que
+                  quieres enviar el mensaje.</li>
+                <li>Sube el archivo con los contactos que aún no han recibido un mensaje de Renata. Así, puedes iniciar
+                  la conversación manualmente desde la app con esos números.</li>
+                <li>Selecciona el mensaje que deseas enviar y haz clic en "Enviar mensaje de WhatsApp".</li>
+              </ol>
+              <p>Esta herramienta es perfecta para alcanzar a un gran número de usuarios de manera rápida y efectiva,
+                todo desde la comodidad de la app.</p>
+            </div>
+          </section>
+
+          <hr class="divider">
+        </div>
+      </div>
+
+
+
+      <!-- Footer
+  ============================ -->
+      <footer id="footer" class="section bg-dark footer-text-light">
+        <div class="container">
+          <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+            <li><a data-toggle="tooltip" href="https://www.facebook.com/profile.php?id=61554311185367" target="_blank"
+                title="Facebook" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a data-toggle="tooltip" href="https://www.instagram.com/goji.mx/" target="_blank" title="Instagram"
+                data-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a data-toggle="tooltip" href="https://www.linkedin.com/company/goji-mx/" target="_blank"
+                title="LinkedIn" data-original-title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+          <p class="text-center">Powered by Goji Technologies México</p>
+          <p class="text-center"><a href="mailto:contacto@goji.mx">contacto@goji.mx</a></p>
+          <p class="text-center">© GOJI.MX 2024.</p>
+          <p class="text-2 text-center mb-0"><a class="btn-link" href="https://goji.mx/privacy" target="_blank">Política
+              de privacidad</a> | <a class="btn-link" href="https://goji.mx/terms" target="_blank">Términos y
+              condiciones</a></p>
+        </div>
+      </footer>
+      <!-- Footer end -->
+
+    </div>
+    <!-- Document Wrapper end -->
+
+    <!-- Back To Top -->
+    <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+        class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript
+============================ -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Highlight JS -->
+    <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+    <!-- Easing -->
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Custom Script -->
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
